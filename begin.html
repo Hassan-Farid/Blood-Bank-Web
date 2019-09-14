@@ -1,0 +1,105 @@
+<!DOCTYPE>
+
+<html lang = "en">
+<head>
+	<title>
+		First Web Page 
+	</title>
+	<meta charset = "utf-8">
+	<meta name = "author" content = "PyTech 2.0 Foundation">
+	<link rel = "stylesheet" href = "css_begin.css">
+	<script src = "js_begin.js"></script>
+</head>
+<body>
+
+	<header id = "main_header">
+		<h1>
+			<img src="D:\Blood_Bank_Web\blood_drop.jpg" alt="Site Logo", width="75", height="75">
+			Blood Bank Web
+		</h1>
+	</header>
+	
+	<div class = "topnav">
+		<li>Home</li>
+		<li href = "#main_section">Donors</li>
+		<li href = "#contact">Contact us</li>
+		<li href = "#about">About</li>
+	</div>
+	
+	<section id = "main_section">
+		<article id = "donations">
+			<h2>Donations</h2>
+			<p>
+			Blood Bank Web's objective is to provide source of blood to the deserving people out there
+			suffering from blood loss. Your one donation today might save a person tomorrow. To donate
+			your blood, register yourself at the Donors section. Thankyou
+			</p>
+		</article>
+		
+		<aside id = "donation_forum">
+			<h2>
+			Donor Section:
+			</h2>
+			<p>
+			Enter your information to register yourself:
+			</p>
+			<form>
+				<label for="fname">
+					<b>First Name: </b>
+				</label>
+			  
+				<input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+				<label for="lname">
+					<b>Last Name: </b>
+				</label>
+				
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				<label for="btype">
+					<b>Blood Group:</b>
+				</label>
+				  
+				<select id="btype" name="Blood Group">
+					<option value="A+">A+</option>
+					<option value="A-">A-</option>
+					<option value="B+">B+</option>
+					<option value="B-">B-</option>
+					<option value="AB+">AB+</option>
+					<option value="AB-">AB-</option>
+					<option value="O+">O+</option>
+					<option value="O-">O-</option>
+				</select>
+
+				<input type="submit" value="Register" onclick=register>
+			</form>
+		</aside>
+		
+		<article id = "about">
+			<h2>About Us</h2>
+			<p>
+			Blood Bank Web is a free blood donation organization that takes blood donors and provides 
+			your denoted blood to those who are in need of it. 
+			</p>
+		</article>
+	
+		<article id = "contact">
+			<h2>Contact Us</h2>
+			<p>For furthur details regarding Blood Bank Web, contact us at:</p>
+			<p>Contact : ####-#########</p>
+		</article>
+	</section>
+	
+	<details id = "details">
+		<summary>Want to know more about our community??</summary>
+		<p>Address: Gulshan, Blood Bank Foundation</p>
+		<p>City Location: Karachi, Pakistan</p>
+		<p>Contact: ####-#######</p>
+	</details>
+	
+	<footer id = "footer">
+		<p>@Copyrights Blood_Bank_Web/Blood Bank Foundation 2019.By Hassan Farid. All rights reserved.</p>
+	</footer>
+	
+</body>
+</html>

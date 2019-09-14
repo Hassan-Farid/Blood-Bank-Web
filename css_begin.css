@@ -1,0 +1,128 @@
+#main_header{
+	border: 2px solid darkred;
+	display: -webkit-box;
+	color: white;
+	background-image: linear-gradient(45deg, white, red);
+	width: 100%;
+	font-size: 38px;
+}
+
+.topnav{
+	background-color: white;
+	width: 100%;
+	border: 2px solid darkred;
+	overflow: auto;
+}
+
+.topnav li{
+	float: left;
+	color: red;
+	padding: 12px;
+	width: 23.125%;
+	text-align: center;
+	text-decoration: None;
+	font-size: 15px;
+	border-right: 1px solid darkred;
+	list-style-type: none;
+}
+
+.topnav li:hover{
+	background-color: white;
+	color: darkred;
+}
+
+#main_section{
+	margin: 10px 5px;
+}
+
+#main_section article{
+	background-image: linear-gradient(45deg, white, red);
+	border: 2px solid darkred;
+	margin: 5px 10px;
+	padding: 5px 5px;
+	color: darkred;
+	width: 90%;
+	height: 150px;
+	border-radius: 25px;
+	-webkit-transition: width 2s height 2s;
+}
+
+#main_section article:hover{
+	width: 95%;
+	height: 155px;
+}
+
+#donation_forum{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	border: 2px solid darkred;
+	background: -webkit-linear-gradient(45deg, white, red);
+	margin: 10px 10px;
+	padding: 5px 0px;
+	color: darkred;
+	border-radius: 25px;
+}
+
+#donation_forum p{
+	margin: 0px 5px;
+	padding: 5px 0px;
+}
+
+#donation_forum form label{
+	margin: 2px 5px;
+}
+
+#donation_forum form input[type=text], select {
+  width: 98%;
+  padding: 12px 20px;
+  margin: 10px 15px;
+  display: inline-block;
+  border: 1px solid darkred;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#donation_forum form input[type=submit] {
+  width: 98%;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 5px;
+  border: 2px solid darkred;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#donation_forum form input[type=submit]:hover {
+  background-color: darkred;
+}
+
+#details
+{
+	background-image: linear-gradient(45deg, white, red);
+	border: 2px solid darkred;
+	margin: 5px 5px;
+	padding: 0px 10px;
+	color: darkred;
+	width: 98%;
+	height: 150px;
+}
+
+#detail summary{
+	outline: none;
+}
+
+#footer
+{
+	background: black;
+	border: 2px solid darkred;
+	color: darkred;
+	width: 100%;
+	height: 50px;
+	font-size: 15px;
+}
+
+#footer p{
+	padding: 0px 10px;
+}
